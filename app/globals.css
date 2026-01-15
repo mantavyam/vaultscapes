@@ -1,0 +1,193 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+
+  /* --color-base: var(--base); */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-faint: var(--faint);
+  --color-dim: var(--dim);
+  --color-accent: var(--accent);
+  --color-border-solid: var(--border-solid);
+  --color-shade-hover: var(--shade-hover);
+  --color-label: var(--label);
+
+  --text-xxs: 11px;
+
+  --tracking-prose: -0.8px;
+
+  --spacing-header: var(--header-height);
+}
+
+
+:root {
+  /* bg */
+  /* --base: #fff; */
+  --background: #fafafa;
+  --background-raw: 250, 250, 250;
+
+  /* text */
+  --foreground: var(--faint);
+  --faint: #909090;
+  --dim: #303030;
+  --label: #fafafa;
+
+  /* border */
+  --border-solid: #d9d9d9;
+
+  /* action */
+  --shade-hover: #e3e3e3;
+
+  --header-height: 120px;
+
+  @media (min-width: 1024px) {
+    --header-height: 64px;
+  }
+
+  ::selection {
+    background-color: var(--accent-transparent);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* bg */
+    /* --base: #0c0c0c; */
+    --background: #040404;
+    --background-raw: 4, 4, 4;
+
+    /* text */
+    --foreground: var(--faint);
+    --faint: #646464;
+    --dim: #dedede;
+    --label: #fafafa;
+
+    /* border */
+    --border-solid: #252525;
+
+    /* action */
+    --shade-hover: #1b1b1b;
+  }
+
+  .light-only {
+    display: none;
+  }
+
+  .binary {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='350' height='30'%3E%3Ctext x='0' y='20' font-size='20' letter-spacing='5' font-family='monospace' fill='%23121212'%3E1101010010110101001011%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 250px;
+    box-shadow: -1px -1px 30px 0px rgba(0, 0, 0, 0.50) inset, 1px 1px 30px 0px rgba(0, 0, 0, 0.50) inset;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .dark-only {
+    display: none;
+  }
+
+  .binary {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='350' height='30'%3E%3Ctext x='0' y='20' font-size='20' letter-spacing='5' font-family='monospace' fill='%23E3E3E3'%3E1101010010110101001011%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 250px;
+    box-shadow: -1px -1px 30px 0px #FFF inset, 1px 1px 30px 0px #FFF inset;
+  }
+}
+
+body {
+  text-transform: uppercase;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-mono);
+  letter-spacing: -1.28px;
+
+  .text-sm {
+    letter-spacing: -0.96px;
+  }
+
+  a:focus,
+  input:focus,
+  button:focus {
+    outline-style: dashed;
+    outline-color: var(--accent);
+    outline-offset: 2px;
+    outline-width: 2px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input,
+  input::placeholder {
+    text-transform: uppercase;
+    letter-spacing: normal;
+  }
+
+  .divider {
+    height: 1px;
+    background:
+      linear-gradient(to right, transparent 50%, var(--color-faint) 50%);
+    background-size: 4px 2px;
+  }
+
+  .divider-md {
+    height: 1px;
+    background:
+      linear-gradient(to right, transparent 50%, var(--color-faint) 50%);
+    background-size: 8px 4px;
+  }
+
+  .dashed {
+    padding: 1px !important;
+    background-image: repeating-linear-gradient(
+        0deg,
+        var(--border-solid),
+        var(--border-solid) 5px,
+        transparent 5px,
+        transparent 8px,
+        var(--border-solid) 8px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        var(--border-solid),
+        var(--border-solid) 5px,
+        transparent 5px,
+        transparent 8px,
+        var(--border-solid) 8px
+      ),
+      repeating-linear-gradient(
+        180deg,
+        var(--border-solid),
+        var(--border-solid) 5px,
+        transparent 5px,
+        transparent 8px,
+        var(--border-solid) 8px
+      ),
+      repeating-linear-gradient(
+        270deg,
+        var(--border-solid),
+        var(--border-solid) 5px,
+        transparent 5px,
+        transparent 8px,
+        var(--border-solid) 8px
+      );
+    background-size: 1px 100%, 100% 1px, 1px 100%, 100% 1px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+  }
+
+  .prose {
+    letter-spacing: -0.8px;
+  }
+}
+
+svg text,
+svg tspan {
+  cursor: default;
+  user-select: none;
+}

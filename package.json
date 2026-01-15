@@ -1,0 +1,40 @@
+{
+  "name": "launch-week-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "basehub dev & next dev --turbopack",
+    "build": "basehub && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "email": "email dev"
+  },
+  "dependencies": {
+    "@bsmnt/drop": "^1.2.2",
+    "@radix-ui/react-id": "^1.1.1",
+    "@react-email/components": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "basehub": "^9.5.2",
+    "clsx": "^2.1.1",
+    "geist": "^1.4.2",
+    "next": "16.0.9",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "resend": "^4.6.0"
+  },
+  "devDependencies": {
+    "@react-email/preview-server": "^4.1.2",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react-email": "^4.1.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
