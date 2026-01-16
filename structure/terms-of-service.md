@@ -1,3 +1,7 @@
+---
+icon: asterisk
+---
+
 # Terms of Service
 
 **Effective Date:** January 16, 2026

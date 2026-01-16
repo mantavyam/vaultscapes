@@ -1,3 +1,7 @@
+---
+icon: lock-keyhole-open
+---
+
 # Privacy Policy
 
 **Effective Date:** January 16, 2026
