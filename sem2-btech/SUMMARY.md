@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview - Semester 2](README.md)
+* [Overview](README.md)
 * [MAT201 / Mathematics](<README (1).md>)
 * [PHY101 / Physics](phy101-physics/README.md)
   * [PHY121 / Physics Lab](phy101-physics/phy121-physics-lab.md)
