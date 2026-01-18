@@ -1,0 +1,81 @@
+# BME124 / Workshop
+
+## Syllabus
+
+{% file src=".gitbook/assets/BME124-Syllabus-BTECH-IT.pdf" %}
+
+## References
+
+{% embed url="https://www.scribd.com/document/441291341/Workshop-Practice-by-Swarn-Singh" %}
+
+## Resources
+
+{% hint style="success" %}
+**DOWNLOAD Above Book PDF to refer to the Resources below!**
+
+URL1: [https://www.scribd.com/document/441291341/Workshop-Practice-by-Swarn-Singh](https://www.scribd.com/document/441291341/Workshop-Practice-by-Swarn-Singh)
+
+URL2: [https://drive.google.com/file/d/1GlPIWWMHGyZRbF8QYfce4gJ\_sgtdaRX\_/view](https://drive.google.com/file/d/1GlPIWWMHGyZRbF8QYfce4gJ_sgtdaRX_/view)
+{% endhint %}
+
+\[⤓] [Safety Guidelines ](https://drive.google.com/file/d/1iXIP0tHvaKbGh9xzIZjZOpoK_T2PnTjh/view?usp=drive_link)
+
+<details>
+
+<summary>Machine shop</summary>
+
+Page 188-212 from **Workshop Practice by Swarn Singh**
+
+</details>
+
+<details>
+
+<summary>Fitting shop</summary>
+
+Page 38-68 from **Workshop Practice by Swarn Singh**
+
+\[⤓] [Fitting Shop](https://drive.google.com/file/d/1KwDogSQDG_YSX2En6lKnPaBlhpSfw6js/view?usp=drive_link)
+
+</details>
+
+<details>
+
+<summary>Carpentry shop</summary>
+
+Page 1-37 from **Workshop Practice by Swarn Singh**
+
+</details>
+
+<details>
+
+<summary>Welding shop (Arc + Gas)</summary>
+
+Page 69-93 from **Workshop Practice by Swarn Singh**
+
+</details>
+
+<details>
+
+<summary>Smithy shop</summary>
+
+Page 94-115 from **Workshop Practice by Swarn Singh**
+
+</details>
+
+***
+
+## Notes
+
+\[⤓] \[PDF] [BME124-Workshop-ShortNotes](https://drive.google.com/file/d/1TYDcItk4bQyngZEjJTItrUsxIEeK0j7G/view?usp=drive_link)
+
+## Tools at a Glance
+
+<figure><img src=".gitbook/assets/BME124-WORKSHOP-TOOLS-GLANCE-1.jpg" alt=""><figcaption><p>BME124-WORKSHOP-TOOLS-GLANCE-1</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/BME124-WORKSHOP-TOOLS-GLANCE-2.jpg" alt=""><figcaption><p>BME124-WORKSHOP-TOOLS-GLANCE-2</p></figcaption></figure>
+
+{% embed url="https://mantavyam.notion.site/18152f7cde8880d699a5f2e65f87374e?pvs=105" %}
+Get Credited for sharing your Knowledge Source with your Peers
+{% endembed %}
+
+{% embed url="https://mantavyam.notion.site/17e52f7cde8880e0987fd06d33ef6019?pvs=105" %}
