@@ -12,6 +12,7 @@
 * [BSU143 / Behaviour](bsu143-behaviour.md)
 * [FLU144 / French](flu144-french.md)
 * [BME124 / Workshop](bme124-workshop.md)
+* [TESTPAGE / Gitbook to Shadcn\_flutter](testpage-gitbook-to-shadcn_flutter.md)
 
 ## Specialisation
 
